@@ -2,7 +2,7 @@ package LearningTestNG;
 
 import org.testng.annotations.*;
 
-public class TenstNGAnotation_1 {
+public class TestNGAnotation_1 {
     @BeforeClass
     public void beforeClass() {
         System.out.println("initializa Selenium");
