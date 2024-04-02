@@ -1,10 +1,14 @@
 package LearningTestNG;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class TenstNGAnotation_1 {
+    @BeforeClass
+    public void beforeClass() {
+        System.out.println("initializa Selenium");
+
+    }
+
     @BeforeMethod
     public void beforeMethod() {
 
@@ -28,5 +32,10 @@ public class TenstNGAnotation_1 {
     @AfterMethod
     public void afterMethod() {
         System.out.println("Closing Browser");
+    }
+
+    @AfterClass
+    public void afterClass() {
+        System.out.println("destroy Selenium");
     }
 }
