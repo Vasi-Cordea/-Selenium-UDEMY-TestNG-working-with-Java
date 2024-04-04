@@ -5,7 +5,7 @@ import org.testng.annotations.*;
 public class TestNGAnotation_1 {
     @BeforeClass
     public void beforeClass() {
-        System.out.println("initializa Selenium");
+        System.out.println("initializa Selenium for Class 1");
 
     }
 
@@ -36,6 +36,6 @@ public class TestNGAnotation_1 {
 
     @AfterClass
     public void afterClass() {
-        System.out.println("destroy Selenium");
+        System.out.println("destroy Selenium for clas 1");
     }
 }
