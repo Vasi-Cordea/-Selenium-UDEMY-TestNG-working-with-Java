@@ -1,4 +1,4 @@
-package LearningTestNG;
+package AnnotationTestNG;
 
 import org.testng.annotations.*;
 
